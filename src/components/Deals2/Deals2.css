@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+  background-color: unset;
+  border: none;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+  .font-10 {
+    font-size: 7px;
+  }
+}
+
+.font-12 {
+  font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+  .font-12 {
+    font-size: 10px;
+  }
+}
+
+.font-14 {
+  font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+  .font-14 {
+    font-size: 10px;
+  }
+}
+
+.font-16 {
+  font-size: 16px;
+}
+@media screen and (max-width: 1025px) {
+  .font-16 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-16 {
+    font-size: 12px;
+  }
+}
+
+.font-18 {
+  font-size: 18px;
+}
+@media screen and (max-width: 1025px) {
+  .font-18 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-18 {
+    font-size: 13px;
+  }
+}
+
+.font-20 {
+  font-size: 20px;
+}
+@media screen and (max-width: 1025px) {
+  .font-20 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-20 {
+    font-size: 14px;
+  }
+}
+
+.font-24 {
+  font-size: 24px;
+}
+@media screen and (max-width: 1025px) {
+  .font-24 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-24 {
+    font-size: 16px;
+  }
+}
+
+.font-32 {
+  font-size: 32px;
+}
+@media screen and (max-width: 1025px) {
+  .font-32 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-32 {
+    font-size: 22px;
+  }
+}
+
+.font-36 {
+  font-size: 36px;
+}
+@media screen and (max-width: 1025px) {
+  .font-36 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-36 {
+    font-size: 22px;
+  }
+}
+
+.font-42 {
+  font-size: 42px;
+}
+@media screen and (max-width: 1025px) {
+  .font-42 {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-42 {
+    font-size: 28px;
+  }
+}
+
+.font-48 {
+  font-size: 48px;
+}
+@media screen and (max-width: 1025px) {
+  .font-48 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-48 {
+    font-size: 33px;
+  }
+}
+
+.vr {
+  background-color: #604240;
+  width: 1px;
+  height: 100%;
+}
+
+.deals2-container {
+  background-color: #ffb342;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -10px;
+  padding: 50px 100px;
+}
+.deals2-container .deals {
+  display: flex;
+  color: #604240;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 60px;
+}
+.deals2-container .deals .deals-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: right;
+  align-items: flex-end;
+}
+.deals2-container .deals .deals-text .font-36 {
+  font-weight: 700;
+  color: white;
+}
+.deals2-container .deals .deals-text .custom-button {
+  border: none;
+  background-color: #e96548;
+  color: white;
+}
+.deals2-container .deals .related-cards {
+  padding: 32px 0;
+}
+.deals2-container .deals .related-cards > .product-card {
+  min-width: 200px;
+  background-color: white;
+  padding: 7px;
+  border-radius: 8px;
+}
+.deals2-container .deals .related-cards > .product-card .title-cart .product-cart {
+  padding: 2px 6px;
+}
+.deals2-container .deals .related-cards > .product-card .product-image {
+  height: 200px;
+  margin-bottom: 4px;
+}
+@media screen and (max-width: 1130px) {
+  .deals2-container {
+    padding: 32px;
+    background-size: 80%;
+    padding: 32px 0;
+  }
+  .deals2-container .deals {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+  .deals2-container .deals .deals-text {
+    align-items: center;
+    padding: 0 32px;
+  }
+  .deals2-container .deals .deals-text > * {
+    text-align: center;
+  }
+  .deals2-container .deals .related-cards {
+    padding: 0 32px;
+  }
+  .deals2-container .deals .related-cards > .product-card {
+    min-width: 240px;
+  }
+}/*# sourceMappingURL=Deals2.css.map */

@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+  background-color: unset;
+  border: none;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+  .font-10 {
+    font-size: 7px;
+  }
+}
+
+.font-12 {
+  font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+  .font-12 {
+    font-size: 10px;
+  }
+}
+
+.font-14 {
+  font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+  .font-14 {
+    font-size: 10px;
+  }
+}
+
+.font-16 {
+  font-size: 16px;
+}
+@media screen and (max-width: 1025px) {
+  .font-16 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-16 {
+    font-size: 12px;
+  }
+}
+
+.font-18 {
+  font-size: 18px;
+}
+@media screen and (max-width: 1025px) {
+  .font-18 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-18 {
+    font-size: 13px;
+  }
+}
+
+.font-20 {
+  font-size: 20px;
+}
+@media screen and (max-width: 1025px) {
+  .font-20 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-20 {
+    font-size: 14px;
+  }
+}
+
+.font-24 {
+  font-size: 24px;
+}
+@media screen and (max-width: 1025px) {
+  .font-24 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-24 {
+    font-size: 16px;
+  }
+}
+
+.font-32 {
+  font-size: 32px;
+}
+@media screen and (max-width: 1025px) {
+  .font-32 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-32 {
+    font-size: 22px;
+  }
+}
+
+.font-36 {
+  font-size: 36px;
+}
+@media screen and (max-width: 1025px) {
+  .font-36 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-36 {
+    font-size: 22px;
+  }
+}
+
+.font-42 {
+  font-size: 42px;
+}
+@media screen and (max-width: 1025px) {
+  .font-42 {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-42 {
+    font-size: 28px;
+  }
+}
+
+.font-48 {
+  font-size: 48px;
+}
+@media screen and (max-width: 1025px) {
+  .font-48 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-48 {
+    font-size: 33px;
+  }
+}
+
+.vr {
+  background-color: #604240;
+  width: 1px;
+  height: 100%;
+}
+
+.navbar {
+  width: 100vw;
+  padding: 38px 100px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.navbar.is-home {
+  background-color: #fbebb5;
+  box-shadow: none !important;
+}
+.navbar .navbar__content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 3fr 1fr;
+  min-height: 0px;
+  transition: all 300ms ease-out;
+}
+.navbar .hamburger-button {
+  background-color: transparent;
+  border: none;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+.navbar .navbar__links {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+}
+.navbar .navbar__links > * {
+  font-size: 16px;
+  color: #604240;
+  text-decoration: none;
+}
+.navbar .navbar__icon-links {
+  grid-column: 3/4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+.navbar .navbar__icon-links > * > * {
+  width: 24px;
+}
+.navbar .navbar__icon-links button {
+  background-color: inherit;
+  border: none;
+}
+@media screen and (max-width: 940px) {
+  .navbar {
+    padding: 24px 32px;
+    box-shadow: 0px 4px 20px 0px rgba(57, 55, 91, 0.1);
+  }
+  .navbar .navbar__content {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    height: calc(100vh - 48px);
+  }
+  .navbar .navbar__links {
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 32px;
+  }
+  .navbar .navbar__links > * {
+    font-size: 12px;
+  }
+  .navbar .navbar__icon-links {
+    padding: 24px 32px;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,99 @@
+@use "../../index.scss" as scss;
+
+.testimonials-container1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+  padding: 35px scss.$standard-padding;
+  margin: 20px;
+
+  .testimonials1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+    gap: 60px;
+    overflow: scroll;
+    margin-top: 50px;
+
+    @include scss.hideScrollbar();
+
+    .our-team-card {
+      text-align: left;
+      scroll-snap-align: center;
+      border-radius: 8px;
+      background-color: rgba($color: #ffff, $alpha: 0.6);
+      min-width: 390px;
+      height: 280px;
+      display: flex;
+      gap: 6px;
+      flex-direction: column;
+      .card-img {
+        width: 80px;
+        height: 80px;
+      }
+      .font-20 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .font-16 {
+        font-size: 16px;
+      }
+      .font-18 {
+        font-size: 18px;
+      }
+
+      .social-media-icons-container {
+        display: flex;
+        gap: 12px;
+      }
+      .social-media-icons-container > img {
+        width: 24px;
+        color: #f47726;
+      }
+    }
+
+    & > button {
+      position: absolute;
+      z-index: 98;
+      height: 30px;
+    }
+
+    #prev {
+      transform: rotateY(180deg);
+      left: 30px;
+    }
+    #next {
+      right: 30px;
+    }
+  }
+  @include scss.tablet {
+    padding: 60px 0;
+
+    &::after,
+    &::before {
+      width: 80px;
+    }
+
+    .testimonials1 {
+      .our-team-card {
+        min-width: 98%;
+      }
+    }
+  }
+}
+.card-button {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.card-button > button > img {
+  width: 40px;
+}

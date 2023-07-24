@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+  background-color: unset;
+  border: none;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+  .font-10 {
+    font-size: 7px;
+  }
+}
+
+.font-12 {
+  font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+  .font-12 {
+    font-size: 10px;
+  }
+}
+
+.font-14 {
+  font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+  .font-14 {
+    font-size: 10px;
+  }
+}
+
+.font-16 {
+  font-size: 16px;
+}
+@media screen and (max-width: 1025px) {
+  .font-16 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-16 {
+    font-size: 12px;
+  }
+}
+
+.font-18 {
+  font-size: 18px;
+}
+@media screen and (max-width: 1025px) {
+  .font-18 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-18 {
+    font-size: 13px;
+  }
+}
+
+.font-20 {
+  font-size: 20px;
+}
+@media screen and (max-width: 1025px) {
+  .font-20 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-20 {
+    font-size: 14px;
+  }
+}
+
+.font-24 {
+  font-size: 24px;
+}
+@media screen and (max-width: 1025px) {
+  .font-24 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-24 {
+    font-size: 16px;
+  }
+}
+
+.font-32 {
+  font-size: 32px;
+}
+@media screen and (max-width: 1025px) {
+  .font-32 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-32 {
+    font-size: 22px;
+  }
+}
+
+.font-36 {
+  font-size: 36px;
+}
+@media screen and (max-width: 1025px) {
+  .font-36 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-36 {
+    font-size: 22px;
+  }
+}
+
+.font-42 {
+  font-size: 42px;
+}
+@media screen and (max-width: 1025px) {
+  .font-42 {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-42 {
+    font-size: 28px;
+  }
+}
+
+.font-48 {
+  font-size: 48px;
+}
+@media screen and (max-width: 1025px) {
+  .font-48 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-48 {
+    font-size: 33px;
+  }
+}
+
+.vr {
+  background-color: #604240;
+  width: 1px;
+  height: 100%;
+}
+
+.about-banner {
+  display: flex;
+  padding: 35px 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 5px 100px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 940px) {
+  .about-banner {
+    flex-direction: column-reverse;
+    padding: 10px;
+    margin: center;
+    justify-content: center;
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about-banner {
+    flex-direction: column-reverse;
+    padding: 10px;
+    margin: center;
+    justify-content: center;
+    gap: 12px;
+  }
+}
+
+.about-banner > div {
+  width: 44%;
+}
+@media screen and (max-width: 940px) {
+  .about-banner > div {
+    width: 96%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about-banner > div {
+    width: 96%;
+    margin: auto;
+  }
+}
+
+.font-48 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.banner-information {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 28px;
+  padding: 20px;
+}
+@media screen and (max-width: 940px) {
+  .banner-information {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner-information {
+    gap: 16px;
+  }
+}
+
+.banner-img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+}
+@media screen and (max-width: 940px) {
+  .banner-img {
+    height: 420px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner-img {
+    height: 270px;
+    margin: auto;
+  }
+}/*# sourceMappingURL=AboutBanner.css.map */

@@ -1,0 +1,74 @@
+@use '../../index' as scss;
+
+.about-banner{
+    display: flex;
+    // padding: 50px; 
+    padding:35px scss.$standard-padding;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 5px scss.$standard-padding;
+    justify-content: space-between;
+    // border: 1px solid black;
+    @include scss.tablet{
+        flex-direction: column-reverse;
+        padding: 10px;
+        margin: center;
+        justify-content: center;
+        gap: 16px;
+    } 
+    @include scss.mobile{
+        flex-direction: column-reverse;
+        padding: 10px;
+        margin: center;
+        justify-content: center;
+        gap: 12px;
+    } 
+}
+
+.about-banner > div{
+    width: 44%;
+    @include scss.tablet{
+        width: 96%; 
+        margin: auto;       
+     }
+    @include scss.mobile{
+       width: 96%; 
+       margin: auto;       
+    }
+
+}
+.font-48{
+    font-size: 48px;
+    font-weight: 600;
+}
+.font-18{
+    font-size: 18px;
+}
+.banner-information{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    line-height: 28px;
+    padding: 20px;
+    @include scss.tablet{
+        gap: 20px; 
+     }
+    @include scss.mobile{
+        gap: 16px;
+    }
+}
+.banner-img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    // max-width: 500px;
+    border-radius: 16px;
+    @include scss.tablet{
+        height: 420px;
+        margin: auto;       
+     }
+    @include scss.mobile{
+       height: 270px; 
+       margin: auto;       
+    }
+}

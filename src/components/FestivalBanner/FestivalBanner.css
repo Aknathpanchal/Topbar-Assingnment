@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+  background-color: unset;
+  border: none;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+  .font-10 {
+    font-size: 7px;
+  }
+}
+
+.font-12 {
+  font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+  .font-12 {
+    font-size: 10px;
+  }
+}
+
+.font-14 {
+  font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+  .font-14 {
+    font-size: 10px;
+  }
+}
+
+.font-16 {
+  font-size: 16px;
+}
+@media screen and (max-width: 1025px) {
+  .font-16 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-16 {
+    font-size: 12px;
+  }
+}
+
+.font-18 {
+  font-size: 18px;
+}
+@media screen and (max-width: 1025px) {
+  .font-18 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-18 {
+    font-size: 13px;
+  }
+}
+
+.font-20 {
+  font-size: 20px;
+}
+@media screen and (max-width: 1025px) {
+  .font-20 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-20 {
+    font-size: 14px;
+  }
+}
+
+.font-24 {
+  font-size: 24px;
+}
+@media screen and (max-width: 1025px) {
+  .font-24 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-24 {
+    font-size: 16px;
+  }
+}
+
+.font-32 {
+  font-size: 32px;
+}
+@media screen and (max-width: 1025px) {
+  .font-32 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-32 {
+    font-size: 22px;
+  }
+}
+
+.font-36 {
+  font-size: 36px;
+}
+@media screen and (max-width: 1025px) {
+  .font-36 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-36 {
+    font-size: 22px;
+  }
+}
+
+.font-42 {
+  font-size: 42px;
+}
+@media screen and (max-width: 1025px) {
+  .font-42 {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-42 {
+    font-size: 28px;
+  }
+}
+
+.font-48 {
+  font-size: 48px;
+}
+@media screen and (max-width: 1025px) {
+  .font-48 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-48 {
+    font-size: 33px;
+  }
+}
+
+.vr {
+  background-color: #604240;
+  width: 1px;
+  height: 100%;
+}
+
+.festival-banner-container {
+  background-color: #ffb342;
+  padding: 50px 100px;
+  background-image: url(../../assets/images/rakhi.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 70%;
+}
+.festival-banner-container .festival-banner {
+  display: flex;
+  justify-content: space-between;
+}
+.festival-banner-container .festival-banner .font-32 {
+  color: white;
+  font-weight: 700;
+}
+.festival-banner-container .festival-banner .color-orange {
+  color: #e96548;
+}
+.festival-banner-container .festival-banner .font-14 {
+  color: #604240;
+}
+.festival-banner-container .festival-banner .custom-button {
+  border: none;
+  background-color: #e96548;
+  color: white;
+}
+@media screen and (max-width: 940px) {
+  .festival-banner-container {
+    background-color: white;
+    padding: 32px;
+    background-image: none;
+  }
+  .festival-banner-container .festival-banner {
+    flex-direction: column;
+    gap: 6px;
+    background-color: #ffb342;
+    padding: 13px 17px;
+    border-radius: 8px;
+    background-image: url(../../assets/images/rakhi.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 120%;
+    background-position-y: bottom;
+  }
+  .festival-banner-container .festival-banner .text-container {
+    width: 75%;
+  }
+}/*# sourceMappingURL=FestivalBanner.css.map */

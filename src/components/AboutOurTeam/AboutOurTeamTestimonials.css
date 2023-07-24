@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+  background-color: unset;
+  border: none;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+  .font-10 {
+    font-size: 7px;
+  }
+}
+
+.font-12 {
+  font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+  .font-12 {
+    font-size: 10px;
+  }
+}
+
+.font-14 {
+  font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+  .font-14 {
+    font-size: 10px;
+  }
+}
+
+.font-16 {
+  font-size: 16px;
+}
+@media screen and (max-width: 1025px) {
+  .font-16 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-16 {
+    font-size: 12px;
+  }
+}
+
+.font-18 {
+  font-size: 18px;
+}
+@media screen and (max-width: 1025px) {
+  .font-18 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-18 {
+    font-size: 13px;
+  }
+}
+
+.font-20 {
+  font-size: 20px;
+}
+@media screen and (max-width: 1025px) {
+  .font-20 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-20 {
+    font-size: 14px;
+  }
+}
+
+.font-24 {
+  font-size: 24px;
+}
+@media screen and (max-width: 1025px) {
+  .font-24 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-24 {
+    font-size: 16px;
+  }
+}
+
+.font-32 {
+  font-size: 32px;
+}
+@media screen and (max-width: 1025px) {
+  .font-32 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-32 {
+    font-size: 22px;
+  }
+}
+
+.font-36 {
+  font-size: 36px;
+}
+@media screen and (max-width: 1025px) {
+  .font-36 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-36 {
+    font-size: 22px;
+  }
+}
+
+.font-42 {
+  font-size: 42px;
+}
+@media screen and (max-width: 1025px) {
+  .font-42 {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-42 {
+    font-size: 28px;
+  }
+}
+
+.font-48 {
+  font-size: 48px;
+}
+@media screen and (max-width: 1025px) {
+  .font-48 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-48 {
+    font-size: 33px;
+  }
+}
+
+.vr {
+  background-color: #604240;
+  width: 1px;
+  height: 100%;
+}
+
+.testimonials-container1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+  padding: 35px 100px;
+  margin: 20px;
+}
+.testimonials-container1 .testimonials1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  flex-wrap: nowrap;
+  gap: 60px;
+  overflow: scroll;
+  margin-top: 50px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.testimonials-container1 .testimonials1::-webkit-scrollbar {
+  width: 0 !important;
+}
+.testimonials-container1 .testimonials1 .our-team-card {
+  text-align: left;
+  scroll-snap-align: center;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.6);
+  min-width: 390px;
+  height: 280px;
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+}
+.testimonials-container1 .testimonials1 .our-team-card .card-img {
+  width: 80px;
+  height: 80px;
+}
+.testimonials-container1 .testimonials1 .our-team-card .font-20 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.testimonials-container1 .testimonials1 .our-team-card .font-16 {
+  font-size: 16px;
+}
+.testimonials-container1 .testimonials1 .our-team-card .font-18 {
+  font-size: 18px;
+}
+.testimonials-container1 .testimonials1 .our-team-card .social-media-icons-container {
+  display: flex;
+  gap: 12px;
+}
+.testimonials-container1 .testimonials1 .our-team-card .social-media-icons-container > img {
+  width: 24px;
+  color: #f47726;
+}
+.testimonials-container1 .testimonials1 > button {
+  position: absolute;
+  z-index: 98;
+  height: 30px;
+}
+.testimonials-container1 .testimonials1 #prev {
+  transform: rotateY(180deg);
+  left: 30px;
+}
+.testimonials-container1 .testimonials1 #next {
+  right: 30px;
+}
+@media screen and (max-width: 940px) {
+  .testimonials-container1 {
+    padding: 60px 0;
+  }
+  .testimonials-container1::after, .testimonials-container1::before {
+    width: 80px;
+  }
+  .testimonials-container1 .testimonials1 .our-team-card {
+    min-width: 98%;
+  }
+}
+
+.card-button {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.card-button > button > img {
+  width: 40px;
+}/*# sourceMappingURL=AboutOurTeamTestimonials.css.map */

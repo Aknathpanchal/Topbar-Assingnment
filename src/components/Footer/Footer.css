@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+  background-color: unset;
+  border: none;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+  .font-10 {
+    font-size: 7px;
+  }
+}
+
+.font-12 {
+  font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+  .font-12 {
+    font-size: 10px;
+  }
+}
+
+.font-14 {
+  font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+  .font-14 {
+    font-size: 10px;
+  }
+}
+
+.font-16 {
+  font-size: 16px;
+}
+@media screen and (max-width: 1025px) {
+  .font-16 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-16 {
+    font-size: 12px;
+  }
+}
+
+.font-18 {
+  font-size: 18px;
+}
+@media screen and (max-width: 1025px) {
+  .font-18 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-18 {
+    font-size: 13px;
+  }
+}
+
+.font-20 {
+  font-size: 20px;
+}
+@media screen and (max-width: 1025px) {
+  .font-20 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-20 {
+    font-size: 14px;
+  }
+}
+
+.font-24 {
+  font-size: 24px;
+}
+@media screen and (max-width: 1025px) {
+  .font-24 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-24 {
+    font-size: 16px;
+  }
+}
+
+.font-32 {
+  font-size: 32px;
+}
+@media screen and (max-width: 1025px) {
+  .font-32 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-32 {
+    font-size: 22px;
+  }
+}
+
+.font-36 {
+  font-size: 36px;
+}
+@media screen and (max-width: 1025px) {
+  .font-36 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-36 {
+    font-size: 22px;
+  }
+}
+
+.font-42 {
+  font-size: 42px;
+}
+@media screen and (max-width: 1025px) {
+  .font-42 {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-42 {
+    font-size: 28px;
+  }
+}
+
+.font-48 {
+  font-size: 48px;
+}
+@media screen and (max-width: 1025px) {
+  .font-48 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-48 {
+    font-size: 33px;
+  }
+}
+
+.vr {
+  background-color: #604240;
+  width: 1px;
+  height: 100%;
+}
+
+footer {
+  background-color: #fffbfa;
+  padding: 78px 100px;
+  border-radius: 0 0 5px 5px;
+}
+@media screen and (max-width: 940px) {
+  footer {
+    padding: 42px 32px;
+  }
+}
+footer > .logo {
+  margin-bottom: 16px;
+}
+footer > .logo img {
+  width: 94px;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 22px;
+  gap: 32px;
+  font-size: 16px;
+}
+@media screen and (max-width: 940px) {
+  footer .footer-content > * {
+    font-size: 10px;
+  }
+}
+footer .footer-content > * {
+  flex: 1;
+}
+footer .footer-content .logo {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+footer .footer-content .logo > img {
+  width: 114px;
+}
+footer .footer-content .logo > .address {
+  color: #9f9f9f;
+}
+footer .footer-content .title {
+  margin-bottom: 55px;
+  color: #9f9f9f;
+}
+@media screen and (max-width: 940px) {
+  footer .footer-content .title {
+    margin-bottom: 10px;
+    color: #604240;
+    font-weight: 700;
+  }
+}
+footer .footer-content .links {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-content .link {
+  margin-bottom: 46px;
+  color: #604240;
+  text-decoration: none;
+}
+@media screen and (max-width: 940px) {
+  footer .footer-content .link {
+    margin-bottom: 8px;
+  }
+}
+footer .footer-content .news .news-form {
+  display: flex;
+  gap: 10px;
+}
+footer .footer-content .news .news-form .news-custom-input {
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #604240;
+  border-radius: 0;
+  min-width: 220px;
+}
+footer .footer-content .news .news-form > button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #604240;
+  border-radius: 0;
+  color: #604240;
+}
+footer .rights {
+  padding-top: 34px;
+  color: #604240;
+}/*# sourceMappingURL=Footer.css.map */
